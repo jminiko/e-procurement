@@ -9,7 +9,7 @@ sourceCompatibility = compatibilityVersion
 targetCompatibility = compatibilityVersion
 appengine {
 	app {
-		id = 'afreelancejob-983'
+		id = 'e-procurement-2'
 		version = 1
 	}
 	appcfg {
