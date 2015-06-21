@@ -1,0 +1,11 @@
+get "/",		forward: "/users/retrieveMission.groovy"
+get "/contact", forward: "/WEB-INF/pages/page-contact.gsp"
+get "/detail",	forward: "/users/detailMission.groovy"
+get "/post",	forward: "/users/postAMission.groovy"
+post "/save",	forward: "/users/registerMission.groovy"
+post "/search",	forward: "/users/searchMissions.groovy"
+get	"/delall",	forward: "/users/deleteAll.groovy"
+post "/postAfter",	forward: "/users/registerMission.groovy"
+post "/email",	forward: "/users/sendEmail.groovy"
+
+get "/favicon.ico", redirect: "/images/gaelyk-small-favicon.png"
